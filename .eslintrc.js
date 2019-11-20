@@ -23,6 +23,8 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': 'error',
+    "react/state-in-constructor": [0, 'never'],
+
     'react/jsx-filename-extension': [
       'warn',
       {
