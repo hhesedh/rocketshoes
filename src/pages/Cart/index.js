@@ -53,7 +53,7 @@ function Cart({ cart, removeFromCart, updateAmount, total }) {
                 </div>
               </td>
               <td>
-                <strong>R${product.subtotal}</strong>
+                <strong>{product.subtotal}</strong>
               </td>
               <td>
                 <button
@@ -71,7 +71,7 @@ function Cart({ cart, removeFromCart, updateAmount, total }) {
         <button type="button">Finalizar pedido</button>
         <Total>
           <span>TOTAL</span>
-          <strong>R${total}</strong>
+          <strong>{total}</strong>
         </Total>
       </footer>
     </Container>
